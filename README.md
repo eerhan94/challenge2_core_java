@@ -25,9 +25,7 @@ Java 8 (jdk1.8.0_131)
 apache-maven-3.x.x (apache-maven-3.6.3)
 
 You can see the application compile and usage steps in the following GIF
-
-![flow](C:\Private\Project\github\challenge2_core_java\flow.gif)
-
+![](flow.gif)
 -> git clone https://github.com/eerhan94/challenge2_core_java.git
 
 -> mvn clean test compile assembly:single
