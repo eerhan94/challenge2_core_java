@@ -8,7 +8,7 @@ The amount of invoice entered while making entries is approved or rejected accor
 
 ##### Rules:
 
- New billing information will be entered into the accounting system, so if the total of all the APPROVED invoices entered is above the APPROVED specified limit, it is APPROVED if it does not exceed the limit.
+New billing information will be entered into the accounting system, so if the total of all the APPROVED invoices entered is above the APPROVED specified limit, it is APPROVED if it does not exceed the limit.
 
 LIMIT VALUE is the same for all purchasing specialists in the application. 
 
@@ -24,8 +24,14 @@ Java 8 (jdk1.8.0_131)
 
 apache-maven-3.x.x (apache-maven-3.6.3)
 
-
-
 You can see the application compile and usage steps in the following GIF
 
-mvn clean test compile assembly:single
+![flow](C:\Private\Project\github\challenge2_core_java\flow.gif)
+
+-> git clone https://github.com/eerhan94/challenge2_core_java.git
+
+-> mvn clean test compile assembly:single
+
+-> cd target
+
+-> java -jar challenge2_core_java-1.0-SNAPSHOT-jar-with-dependencies.jar
