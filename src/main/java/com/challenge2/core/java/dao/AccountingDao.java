@@ -65,7 +65,7 @@ public class AccountingDao {
 
         Long red_edildi = (Long) entityManager.createQuery(
                 "SELECT COUNT(i) FROM Invoice i where i.status = :value1")
-                .setParameter("value1", Status.APPROVED)
+                .setParameter("value1", Status.REJECT)
                 .getSingleResult();
         entityManager.close();
 
